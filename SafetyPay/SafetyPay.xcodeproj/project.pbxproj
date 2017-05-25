@@ -1,0 +1,558 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		780BB7001E9B697600B63DC6 /* ZLSafetyPswView.m in Sources */ = {isa = PBXBuildFile; fileRef = 780BB6FF1E9B697600B63DC6 /* ZLSafetyPswView.m */; };
+		785CC3A31E9B5DF200925326 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 785CC3A21E9B5DF200925326 /* main.m */; };
+		785CC3A61E9B5DF200925326 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 785CC3A51E9B5DF200925326 /* AppDelegate.m */; };
+		785CC3A91E9B5DF200925326 /* SafetyPayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 785CC3A81E9B5DF200925326 /* SafetyPayViewController.m */; };
+		785CC3AC1E9B5DF200925326 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 785CC3AA1E9B5DF200925326 /* Main.storyboard */; };
+		785CC3AE1E9B5DF200925326 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 785CC3AD1E9B5DF200925326 /* Assets.xcassets */; };
+		785CC3B11E9B5DF200925326 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 785CC3AF1E9B5DF200925326 /* LaunchScreen.storyboard */; };
+		785CC3BC1E9B5DF200925326 /* SafetyPayTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 785CC3BB1E9B5DF200925326 /* SafetyPayTests.m */; };
+		785CC3C71E9B5DF200925326 /* SafetyPayUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 785CC3C61E9B5DF200925326 /* SafetyPayUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		785CC3B81E9B5DF200925326 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 785CC3961E9B5DF200925326 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 785CC39D1E9B5DF200925326;
+			remoteInfo = SafetyPay;
+		};
+		785CC3C31E9B5DF200925326 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 785CC3961E9B5DF200925326 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 785CC39D1E9B5DF200925326;
+			remoteInfo = SafetyPay;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		780BB6FE1E9B697600B63DC6 /* ZLSafetyPswView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZLSafetyPswView.h; sourceTree = "<group>"; };
+		780BB6FF1E9B697600B63DC6 /* ZLSafetyPswView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZLSafetyPswView.m; sourceTree = "<group>"; };
+		785CC39E1E9B5DF200925326 /* SafetyPay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SafetyPay.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		785CC3A21E9B5DF200925326 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		785CC3A41E9B5DF200925326 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		785CC3A51E9B5DF200925326 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		785CC3A71E9B5DF200925326 /* SafetyPayViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SafetyPayViewController.h; sourceTree = "<group>"; };
+		785CC3A81E9B5DF200925326 /* SafetyPayViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SafetyPayViewController.m; sourceTree = "<group>"; };
+		785CC3AB1E9B5DF200925326 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		785CC3AD1E9B5DF200925326 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		785CC3B01E9B5DF200925326 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		785CC3B21E9B5DF200925326 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		785CC3B71E9B5DF200925326 /* SafetyPayTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SafetyPayTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		785CC3BB1E9B5DF200925326 /* SafetyPayTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SafetyPayTests.m; sourceTree = "<group>"; };
+		785CC3BD1E9B5DF200925326 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		785CC3C21E9B5DF200925326 /* SafetyPayUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SafetyPayUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		785CC3C61E9B5DF200925326 /* SafetyPayUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SafetyPayUITests.m; sourceTree = "<group>"; };
+		785CC3C81E9B5DF200925326 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		785CC39B1E9B5DF200925326 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		785CC3B41E9B5DF200925326 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		785CC3BF1E9B5DF200925326 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		780BB7041E9B876F00B63DC6 /* SafetyPay */ = {
+			isa = PBXGroup;
+			children = (
+				780BB6FE1E9B697600B63DC6 /* ZLSafetyPswView.h */,
+				780BB6FF1E9B697600B63DC6 /* ZLSafetyPswView.m */,
+			);
+			name = SafetyPay;
+			sourceTree = "<group>";
+		};
+		785CC3951E9B5DF200925326 = {
+			isa = PBXGroup;
+			children = (
+				785CC3A01E9B5DF200925326 /* SafetyPay */,
+				785CC3BA1E9B5DF200925326 /* SafetyPayTests */,
+				785CC3C51E9B5DF200925326 /* SafetyPayUITests */,
+				785CC39F1E9B5DF200925326 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		785CC39F1E9B5DF200925326 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				785CC39E1E9B5DF200925326 /* SafetyPay.app */,
+				785CC3B71E9B5DF200925326 /* SafetyPayTests.xctest */,
+				785CC3C21E9B5DF200925326 /* SafetyPayUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		785CC3A01E9B5DF200925326 /* SafetyPay */ = {
+			isa = PBXGroup;
+			children = (
+				780BB7041E9B876F00B63DC6 /* SafetyPay */,
+				785CC3A41E9B5DF200925326 /* AppDelegate.h */,
+				785CC3A51E9B5DF200925326 /* AppDelegate.m */,
+				785CC3A71E9B5DF200925326 /* SafetyPayViewController.h */,
+				785CC3A81E9B5DF200925326 /* SafetyPayViewController.m */,
+				785CC3A11E9B5DF200925326 /* Supporting Files */,
+				785CC3AA1E9B5DF200925326 /* Main.storyboard */,
+				785CC3AD1E9B5DF200925326 /* Assets.xcassets */,
+				785CC3AF1E9B5DF200925326 /* LaunchScreen.storyboard */,
+				785CC3B21E9B5DF200925326 /* Info.plist */,
+			);
+			path = SafetyPay;
+			sourceTree = "<group>";
+		};
+		785CC3A11E9B5DF200925326 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				785CC3A21E9B5DF200925326 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		785CC3BA1E9B5DF200925326 /* SafetyPayTests */ = {
+			isa = PBXGroup;
+			children = (
+				785CC3BB1E9B5DF200925326 /* SafetyPayTests.m */,
+				785CC3BD1E9B5DF200925326 /* Info.plist */,
+			);
+			path = SafetyPayTests;
+			sourceTree = "<group>";
+		};
+		785CC3C51E9B5DF200925326 /* SafetyPayUITests */ = {
+			isa = PBXGroup;
+			children = (
+				785CC3C61E9B5DF200925326 /* SafetyPayUITests.m */,
+				785CC3C81E9B5DF200925326 /* Info.plist */,
+			);
+			path = SafetyPayUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		785CC39D1E9B5DF200925326 /* SafetyPay */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 785CC3CB1E9B5DF200925326 /* Build configuration list for PBXNativeTarget "SafetyPay" */;
+			buildPhases = (
+				785CC39A1E9B5DF200925326 /* Sources */,
+				785CC39B1E9B5DF200925326 /* Frameworks */,
+				785CC39C1E9B5DF200925326 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SafetyPay;
+			productName = SafetyPay;
+			productReference = 785CC39E1E9B5DF200925326 /* SafetyPay.app */;
+			productType = "com.apple.product-type.application";
+		};
+		785CC3B61E9B5DF200925326 /* SafetyPayTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 785CC3CE1E9B5DF200925326 /* Build configuration list for PBXNativeTarget "SafetyPayTests" */;
+			buildPhases = (
+				785CC3B31E9B5DF200925326 /* Sources */,
+				785CC3B41E9B5DF200925326 /* Frameworks */,
+				785CC3B51E9B5DF200925326 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				785CC3B91E9B5DF200925326 /* PBXTargetDependency */,
+			);
+			name = SafetyPayTests;
+			productName = SafetyPayTests;
+			productReference = 785CC3B71E9B5DF200925326 /* SafetyPayTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		785CC3C11E9B5DF200925326 /* SafetyPayUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 785CC3D11E9B5DF200925326 /* Build configuration list for PBXNativeTarget "SafetyPayUITests" */;
+			buildPhases = (
+				785CC3BE1E9B5DF200925326 /* Sources */,
+				785CC3BF1E9B5DF200925326 /* Frameworks */,
+				785CC3C01E9B5DF200925326 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				785CC3C41E9B5DF200925326 /* PBXTargetDependency */,
+			);
+			name = SafetyPayUITests;
+			productName = SafetyPayUITests;
+			productReference = 785CC3C21E9B5DF200925326 /* SafetyPayUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		785CC3961E9B5DF200925326 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = ZL;
+				TargetAttributes = {
+					785CC39D1E9B5DF200925326 = {
+						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = URDF8BC635;
+						ProvisioningStyle = Automatic;
+					};
+					785CC3B61E9B5DF200925326 = {
+						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = 7734U6Q8V5;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 785CC39D1E9B5DF200925326;
+					};
+					785CC3C11E9B5DF200925326 = {
+						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = 7734U6Q8V5;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 785CC39D1E9B5DF200925326;
+					};
+				};
+			};
+			buildConfigurationList = 785CC3991E9B5DF200925326 /* Build configuration list for PBXProject "SafetyPay" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 785CC3951E9B5DF200925326;
+			productRefGroup = 785CC39F1E9B5DF200925326 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				785CC39D1E9B5DF200925326 /* SafetyPay */,
+				785CC3B61E9B5DF200925326 /* SafetyPayTests */,
+				785CC3C11E9B5DF200925326 /* SafetyPayUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		785CC39C1E9B5DF200925326 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				785CC3B11E9B5DF200925326 /* LaunchScreen.storyboard in Resources */,
+				785CC3AE1E9B5DF200925326 /* Assets.xcassets in Resources */,
+				785CC3AC1E9B5DF200925326 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		785CC3B51E9B5DF200925326 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		785CC3C01E9B5DF200925326 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		785CC39A1E9B5DF200925326 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				785CC3A91E9B5DF200925326 /* SafetyPayViewController.m in Sources */,
+				785CC3A61E9B5DF200925326 /* AppDelegate.m in Sources */,
+				785CC3A31E9B5DF200925326 /* main.m in Sources */,
+				780BB7001E9B697600B63DC6 /* ZLSafetyPswView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		785CC3B31E9B5DF200925326 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				785CC3BC1E9B5DF200925326 /* SafetyPayTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		785CC3BE1E9B5DF200925326 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				785CC3C71E9B5DF200925326 /* SafetyPayUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		785CC3B91E9B5DF200925326 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 785CC39D1E9B5DF200925326 /* SafetyPay */;
+			targetProxy = 785CC3B81E9B5DF200925326 /* PBXContainerItemProxy */;
+		};
+		785CC3C41E9B5DF200925326 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 785CC39D1E9B5DF200925326 /* SafetyPay */;
+			targetProxy = 785CC3C31E9B5DF200925326 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		785CC3AA1E9B5DF200925326 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				785CC3AB1E9B5DF200925326 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		785CC3AF1E9B5DF200925326 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				785CC3B01E9B5DF200925326 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		785CC3C91E9B5DF200925326 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		785CC3CA1E9B5DF200925326 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		785CC3CC1E9B5DF200925326 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = URDF8BC635;
+				INFOPLIST_FILE = SafetyPay/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhangli.SafetyPay;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		785CC3CD1E9B5DF200925326 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = URDF8BC635;
+				INFOPLIST_FILE = SafetyPay/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhangli.SafetyPay;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		785CC3CF1E9B5DF200925326 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 7734U6Q8V5;
+				INFOPLIST_FILE = SafetyPayTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhangli.SafetyPayTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SafetyPay.app/SafetyPay";
+			};
+			name = Debug;
+		};
+		785CC3D01E9B5DF200925326 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 7734U6Q8V5;
+				INFOPLIST_FILE = SafetyPayTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhangli.SafetyPayTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SafetyPay.app/SafetyPay";
+			};
+			name = Release;
+		};
+		785CC3D21E9B5DF200925326 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 7734U6Q8V5;
+				INFOPLIST_FILE = SafetyPayUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhangli.SafetyPayUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SafetyPay;
+			};
+			name = Debug;
+		};
+		785CC3D31E9B5DF200925326 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 7734U6Q8V5;
+				INFOPLIST_FILE = SafetyPayUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhangli.SafetyPayUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SafetyPay;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		785CC3991E9B5DF200925326 /* Build configuration list for PBXProject "SafetyPay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				785CC3C91E9B5DF200925326 /* Debug */,
+				785CC3CA1E9B5DF200925326 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		785CC3CB1E9B5DF200925326 /* Build configuration list for PBXNativeTarget "SafetyPay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				785CC3CC1E9B5DF200925326 /* Debug */,
+				785CC3CD1E9B5DF200925326 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		785CC3CE1E9B5DF200925326 /* Build configuration list for PBXNativeTarget "SafetyPayTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				785CC3CF1E9B5DF200925326 /* Debug */,
+				785CC3D01E9B5DF200925326 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		785CC3D11E9B5DF200925326 /* Build configuration list for PBXNativeTarget "SafetyPayUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				785CC3D21E9B5DF200925326 /* Debug */,
+				785CC3D31E9B5DF200925326 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 785CC3961E9B5DF200925326 /* Project object */;
+}
